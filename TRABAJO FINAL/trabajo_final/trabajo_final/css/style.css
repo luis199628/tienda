@@ -1,0 +1,101 @@
+body {
+	font-family: century gothic; /*permite definir el aspecto de una familia tipográfica*/
+	background-color: #000080; /*indica el color de fondo*/
+	margin-top: 0px; /*establece el margen para la parte superior*/
+	margin-right: 0px; /*establece el margen para el lado derecho*/
+	margin-bottom: 0px; /*establece el margen para el lado inferior*/
+	margin-left: 0px; /*establece el margen para el lado izquierdo*/
+	font-style: normal; /*indica los estilos de fuente*/
+	font-weight: 200; /*especifica el peso o grueso de la letra*/
+}
+
+/* Container */
+.container {
+	width: 90%; /*indica el ancho*/
+	margin-left: auto; /*establece el margen para el lado izquierdo*/
+	margin-right: auto; /*establece el margen para el lado derecho*/
+	height: 1100px; /*indica el alto*/
+	background-color: #efb810 ; /*indica el color de fondo*/
+}
+
+/* Navigation */
+header {
+	width: 100%; /*indica el ancho*/
+	height: 5%; /*indica el alto*/
+	background-color: #000080; /*indica el color de fondo*/
+	border-bottom: 1px solid #efb810; /*borde para la tabla en la parte inferior px tipo de color*/
+}
+
+.logo {
+	color: #efb810; /*indica el color del texto*/
+	font-weight: bold; /*especifica el peso o grueso de la letra*/
+	text-align: left; /*permite establecer la alineación horizontal*/
+	width: 12%; /*indica el ancho*/
+	float: left; /*ubica un elemento al lado izquierdo o derecho de su contenedor*/
+	margin-top: 15px; /*establece el margen para el lado superior*/
+	margin-left: 20px; /*establece el margen para el lado izquierdo*/
+	letter-spacing: 2px; /*define una cantidad adicional de espacio entre caracteres.*/
+}
+
+nav {
+	float: right; /*ubica un elemento al lado izquierdo o derecho de su contenedor*/
+	width: 50%; /*indica el ancho*/
+	text-align: right; /*permite establecer la alineación horizontal*/
+	margin-right: 25px; /*establece el margen para el lado derechdo*/
+}
+
+header nav ul {
+	list-style: none;
+	float: right; /*ubica un elemento al lado izquierdo o derecho de su contenedor*/
+}
+
+nav ul li {
+	float: left; /*ubica un elemento al lado izquierdo o derecho de su contenedor*/
+	color: #efb810; /*indica el color del texto*/
+	font-size: 15px; /*para modificar el tamaño de la fuente */
+	text-align: left; /*permite establecer la alineación horizontal*/
+	margin-right: 25px; /*establece el margen para el lado derechdo*/
+	letter-spacing: 2px; /*define una cantidad adicional de espacio entre caracteres.*/
+	font-weight: bold; /*especifica el peso o grueso de la letra*/
+	transition: all 0.3s linear; /*proporciona una forma de animar los cambios de las propiedades*/
+}
+
+ul li a {
+	color: #FFFFFF; /*indica el color del texto*/
+	text-decoration: none; /*se usa para establecer el formato de texto a subrayado*/
+}
+
+ul li:hover a {
+	color: #efb810; /*indica el color del texto*/
+}
+
+.footer-basic {
+  
+	padding: 50px 0; /*aumenta el tamaño de cada celda*/
+  	background-color:#000080; /*indica el color de fondo*/
+	border-top: 1px solid #efb810; /*borde para la parte superior de la tabla px tipo de color*/
+}
+
+.footer-basic ul {
+  padding:0; /*aumenta el tamaño de cada celda*/
+  list-style:none; /*Establece el tipo de viñetas para la lista*/
+  text-align:center; /*permite establecer la alineación horizontal*/
+  font-size:15px; /*para modificar el tamaño de la fuente */
+	font-family: century gothic; /*permite definir el aspecto de una familia tipográfica*/
+  line-height:1.6; /*establece la altura de una casilla */
+  margin-bottom:0; /*establece el margen para el lado inferior*/
+}
+
+.footer-basic li {
+  padding:0 10px; /*aumenta el tamaño de cada celda*/
+}
+
+.footer-basic ul a {
+  color:inherit; /*indica el color del texto*/
+  text-decoration:none;  /*se usa para establecer el formato de texto a subrayado*/
+  opacity:0.8; /*define la transparencia de un elemento*/
+}
+
+.footer-basic ul a:hover {
+  opacity:1; /*define la transparencia de un elemento*/
+}
